@@ -12,7 +12,6 @@ public class Main extends Application {
 	
 	private static Scene mainScene;
 	
-	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
@@ -30,11 +29,11 @@ public class Main extends Application {
 			e.printStackTrace();
 		}
 	}
-	
+
 	public static Scene getMainScene() {
 		return mainScene;
 	}
-
+	
 	public static void main(String[] args) {
 		launch(args);
 	}
